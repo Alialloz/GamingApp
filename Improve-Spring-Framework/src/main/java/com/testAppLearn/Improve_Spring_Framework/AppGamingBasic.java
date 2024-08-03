@@ -9,9 +9,9 @@ public class AppGamingBasic {
     public static void main(String[] args) {
 
         // Com
-        var marioGame = new MarioGame();
-        var superJeu = new SuperJeu();
-        var gameRunner = new GameRunner(marioGame);
+        var game = new MarioGame();
+        // var game = new SuperJeu();
+        var gameRunner = new GameRunner(game);
         gameRunner.run();
 
         // EndCom
