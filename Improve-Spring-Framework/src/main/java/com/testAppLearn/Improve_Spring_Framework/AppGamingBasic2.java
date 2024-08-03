@@ -23,6 +23,13 @@ public class AppGamingBasic2 {
 
         System.out.println(context.getBean("person"));
 
-        System.out.println(context.getBean("address"));
+
+        //Deux façons alternatives d'utiliser getBean
+        System.out.println(context.getBean("address2"));
+        //System.out.println(context.getBean(Address.class));
+
+        System.out.println(context.getBean("person2MethodCall"));
+
+        System.out.println(context.getBean("person3Parameters"));
     }
 }
