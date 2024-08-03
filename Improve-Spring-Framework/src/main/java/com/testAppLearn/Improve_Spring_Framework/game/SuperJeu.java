@@ -1,6 +1,6 @@
 package com.testAppLearn.Improve_Spring_Framework.game;
 
-public class SuperJeu {
+public class SuperJeu implements GamingConsole {
     public void up(){
         System.out.println("Up");
     }
