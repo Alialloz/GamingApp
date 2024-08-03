@@ -20,5 +20,9 @@ public class AppGamingBasic2 {
         System.out.println(context.getBean("name") );
 
         System.out.println(context.getBean("age"));
+
+        System.out.println(context.getBean("person"));
+
+        System.out.println(context.getBean("address"));
     }
 }
