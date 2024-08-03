@@ -9,7 +9,16 @@ public class AppGamingBasic2 {
     public static void main(String[] args) {
         // 1. Launch Spring Context
         var context = new AnnotationConfigApplicationContext(HelloWordConfig.class);
-        // 2. Configure things we want spring ton manage - @Configuration
 
+
+        // 2. Configure things we want spring ton manage - @Configuration
+            // HelloWordConfig @Configuration
+            // name @Bean
+
+
+        // 3. Retrieving Beans managed by Spring
+        System.out.println(context.getBean("name") );
+
+        System.out.println(context.getBean("age"));
     }
 }
