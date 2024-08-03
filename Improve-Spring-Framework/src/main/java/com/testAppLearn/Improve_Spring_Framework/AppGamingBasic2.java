@@ -4,6 +4,8 @@ import com.testAppLearn.Improve_Spring_Framework.game.GameRunner;
 import com.testAppLearn.Improve_Spring_Framework.game.MarioGame;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
+import java.util.Arrays;
+
 public class AppGamingBasic2 {
 
     public static void main(String[] args) {
@@ -31,5 +33,9 @@ public class AppGamingBasic2 {
         System.out.println(context.getBean("person2MethodCall"));
 
         System.out.println(context.getBean("person3Parameters"));
+
+
+        //Method refence | Fonctionnal programming
+        Arrays.stream(context.getBeanDefinitionNames()).forEach(System.out::println);
     }
 }
