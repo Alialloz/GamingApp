@@ -11,6 +11,7 @@ public class AppGamingBasic {
         var marioGame = new MarioGame();
         var gameRunner = new GameRunner(marioGame);
         gameRunner.run();
+
         // EndCom
 
     }
